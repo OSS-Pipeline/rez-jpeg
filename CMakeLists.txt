@@ -4,7 +4,7 @@ include(RezBuild)
 include(RezRepository)
 include(ExternalProject)
 
-# We split the PySide2 version string in multiple ones.
+# We split the jpeg version string in multiple ones.
 string(REPLACE "." ";" JPEG_VERSION_LIST ${REZ_BUILD_PROJECT_VERSION})
 list(GET JPEG_VERSION_LIST 0 JPEG_VERSION_MAJOR)
 list(GET JPEG_VERSION_LIST 1 JPEG_VERSION_MINOR)
