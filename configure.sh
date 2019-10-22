@@ -40,9 +40,9 @@ cd ${BUILD_PATH}
 
 ${EXTRACT_PATH}/configure \
     --prefix=${INSTALL_PATH} \
-    --with-pic \
-    CFLAGS=-fPIC \
-    CXXFLAGS=-fPIC
+    CFLAGS="-fPIC" \
+    CXXFLAGS="-fPIC" \
+    --with-pic
 
 echo -e "\n"
 echo -e "[CONFIGURE] Finished configuring jpeg-${JPEG_VERSION}!"
